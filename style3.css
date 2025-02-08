@@ -1,0 +1,181 @@
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 30%;
+    background: linear-gradient(45deg, #6a1b9a, #8e24aa);
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name-div h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.name-div p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.box-1 {
+    margin-top: 20px;
+}
+
+.box-1 h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.box-1 p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.material-icons {
+    margin-right: 10px;
+    color: #ffeb3b;
+}
+
+
+.skill-container {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+    margin-top: 5px;
+}
+
+.skill {
+    height: 100%;
+}
+
+.html { background-color: #f44336; width: 90%; }
+.css { background-color: #2196f3; width: 85%; }
+.python { background-color: #4caf50; width: 80%; }
+.web { background-color: #9c27b0; width: 70%; }
+
+.language-list .language {
+    margin-bottom: 15px;
+}
+
+.hobbies-icons i {
+    font-size: 2rem;
+    margin-right: 15px;
+    transition: transform 0.3s;
+}
+
+.hobbies-icons i:hover {
+    transform: scale(1.2);
+}
+
+
+.right {
+    width: 65%;
+    padding-left: 30px;
+}
+
+.box-2 {
+    margin-bottom: 40px;
+}
+
+.box-2 h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.p3 {
+    font-weight: bold;
+    color: #333;
+}
+
+.p2 {
+    font-size: 1rem;
+    color: #777;
+}
+
+.edu-list {
+    margin-bottom: 20px;
+}
+
+.edu-year {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.edu-detail {
+    margin-left: 20px;
+    color: #555;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project p {
+    font-size: 1.1rem;
+}
+
+.project span {
+    font-weight: bold;
+    color: #6a1b9a;
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .profile-img img {
+        width: 150px;
+    }
+
+    .name-div h1 {
+        font-size: 2rem;
+    }
+
+    .box-1 h2, .box-2 h2 {
+        font-size: 1.4rem;
+    }
+}
+</style>
